@@ -1,0 +1,1 @@
+alert("fast-cache")//先简单随便写一个
