@@ -1,5 +1,5 @@
 {
-  "name": "fast-cache",
+  "name": "fast-cachee-npm",
   "version": "0.0.1",
   "description": "前端缓存工具，防止内存\"侧漏",
   "main": "/src/index.js",
