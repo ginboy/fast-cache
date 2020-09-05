@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nalert(\"fast-cache\"); //先简单随便写一个\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar FastCache = function () {\n\tfunction FastCache() {\n\t\t_classCallCheck(this, FastCache);\n\n\t\tthis.list = {};\n\t}\n\n\t_createClass(FastCache, [{\n\t\tkey: \"set\",\n\t\tvalue: function set(key, value) {\n\t\t\tthis.list[key] = value;\n\t\t}\n\t}, {\n\t\tkey: \"get\",\n\t\tvalue: function get(key) {\n\t\t\treturn this.list[key];\n\t\t}\n\t}]);\n\n\treturn FastCache;\n}();\n\nwindow.FastCache = FastCache;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

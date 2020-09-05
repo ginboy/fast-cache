@@ -1,1 +1,12 @@
-alert("fast-cache")//先简单随便写一个
+class FastCache{
+	constructor(){
+		this.list={}
+	}
+	set(key,value){
+		this.list[key]=value
+	}
+	get(key){
+		return this.list[key]
+	}
+}
+window.FastCache=FastCache
